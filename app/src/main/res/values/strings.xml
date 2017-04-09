@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Everyday Helper</string>
+    <string name="lang">en</string>
+
+    <string name="none">None</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="celcius">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="kelvin"> K</string>
+
+    <string-array name="updateRate">
+        <item>Never</item>
+        <item>Every 5 minutes</item>
+        <item>Every 30 minutes</item>
+        <item>Every hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 24 hours</item>
+    </string-array>
+
+    <string-array name="notifyTime">
+        <item>No notification</item>
+        <item>10 minutes before the event</item>
+        <item>1 hour before the event</item>
+        <item>2 hours before the event</item>
+        <item>12 hours before the event</item>
+        <item>24 hours before the event</item>
+    </string-array>
+
+    <string-array name="weekDays">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <integer-array name="weekDaysValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <string name="shut_off_button">Button press</string>
+    <string name="shut_off_math">Simple math problem</string>
+    <string name="shut_off_shake">Phone shake</string>
+
+    <string name="N">N</string>
+    <string name="E">E</string>
+    <string name="W">W</string>
+    <string name="S">S</string>
+    <string name="NE">NE</string>
+    <string name="NW">NW</string>
+    <string name="SE">SE</string>
+    <string name="SW">SW</string>
+    <string name="alarm_name">Alarm name</string>
+    <string name="enter_alarm_name">Enter the alarm name</string>
+    <string name="time">Time</string>
+    <string name="choose_alarm_time">Choose an hour when the alarm will be turned on</string>
+    <string name="select">Select</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="choose_ringtone">Choose a ringtone to be played during alarm</string>
+    <string name="ringtone_volume">Ringtone volume</string>
+    <string name="repeat">Repeat</string>
+    <string name="no_repeat">No repeating</string>
+    <string name="shut_off_method">Shut off method</string>
+    <string name="accept">Accept</string>
+    <string name="event_name">Event name</string>
+    <string name="enter_event_name">Enter the name of the event</string>
+    <string name="event_description">Description</string>
+    <string name="enter_event_description">Enter the description of the event</string>
+    <string name="date">Date</string>
+    <string name="choose_event_date">Choose the day of the event</string>
+    <string name="choose_event_time">Choose the hour of the event</string>
+    <string name="notification">Notification</string>
+    <string name="no_notification">No notification</string>
+    <string name="add_location">Add location</string>
+    <string name="alarm">ALARM</string>
+    <string name="dummy_alarm_message">ALAAAAAAAAAAAAAAAAAAAAARM</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="add_event">Add event</string>
+    <string name="event_list">Event list</string>
+    <string name="event_name_info">Event name:</string>
+    <string name="dummy_event_name">Some event</string>
+    <string name="event_description_info">Description:</string>
+    <string name="dummy_event_desc">jaskdksdajkd asjk asdjkjkdjkasd jkkj asjkd asjkjkd asjkjkjaskd jkjskd ajkjkasdjkjkjkasdjkjaskdj jk asdjjkdasjkasdjk</string>
+    <string name="date_info">Date:</string>
+    <string name="dummy_date">11.11.1111 11:11</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Delete</string>
+    <string name="return_to_calendar">Go back to calendar</string>
+    <string name="upcoming_events">Upcoming events:</string>
+    <string name="no_events">No events</string>
+    <string name="past_events">Past events:</string>
+    <string name="calendar">Calendar</string>
+    <string name="no_alarms">No alarms</string>
+    <string name="alarm_list">Alarms:</string>
+    <string name="location_list">Location list:</string>
+    <string name="no_locations">No locations</string>
+    <string name="turn_on">Enable</string>
+    <string name="turn_off">Disable</string>
+    <string name="rename">Rename</string>
+    <string name="set_as_default">Set as default</string>
+    <string name="weather">Weather</string>
+    <string name="alarms">Alarms</string>
+    <string name="settings">Settings</string>
+    <string name="shake_the_phone_to_disable_alarm">Shake the phone to turn off the alarm!</string>
+    <string name="result">Result</string>
+    <string name="location_name">Location name</string>
+    <string name="enter_location_name">Enter the location name</string>
+    <string name="use_actual_location">Use actual location</string>
+    <string name="check_to_use_actual_location">Check if you want to use your location</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="refresh_data">Refresh data</string>
+    <string name="forecast">Forecast</string>
+    <string name="other_locations">Other locations</string>
+    <string name="date_measurement">Measurement date:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="wind">Wind:</string>
+    <string name="clouds">Clouds:</string>
+    <string name="rain">Rain:</string>
+    <string name="snow">Snow:</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="sunset">Sunset:</string>
+
+    <string name="choose_ringtone_short">Choose ringtone:</string>
+    <string name="choose_days_short">Choose days:</string>
+    <string name="choose_shut_off_method_short">Choose shut off method:</string>
+    <string name="field_required">Field required!</string>
+    <string name="didnt_choose_time">No time selected!</string>
+    <string name="didnt_choose_date">No date selected!</string>
+    <string name="couldnt_find_the_location">Couldn\'t find the location!</string>
+    <string name="confirm_deletion">Confirm deletion</string>
+    <string name="are_you_sure_delete_alarm">Are you sure you want to delete this alarm?</string>
+    <string name="are_you_sure_delete_location">Are you sure you want to delete this location?</string>
+    <string name="are_you_sure_delete_event">Are you sure you want to delete this event?</string>
+    <string name="choose_when_the_notification">Choose when the notification will be displayed</string>
+    <string name="event_list_info">Events:</string>
+    <string name="default_location">default location</string>
+    <string name="adding_location">Adding location</string>
+    <string name="enter_new_name_location">Enter new location name:</string>
+    <string name="upcoming_event">Upcoming events!</string>
+    <string name="updating_data">Updating data</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="error">Error!</string>
+    <string name="download_error">An error occured during the download of data from server. Check your Internet connection and try again later.</string>
+    <string name="download_error_location_name">An error occured during the download of data from server. Check your Internet connection and enter valid location name.</string>
+
+    <string-array name="weatherCodes">
+        <item>200|Thunderstorm with light rain</item>
+        <item>201|Thunderstorm with rain</item>
+        <item>202|Thunderstorm with heavy rain </item>
+        <item>210|Light thunderstorm</item>
+        <item>211|Thunderstorm</item>
+        <item>212|Heavy thunderstorm</item>
+        <item>221|Ragged thunderstorm </item>
+        <item>230|Thunderstorm with light drizzle</item>
+        <item>231|Thunderstorm with drizzle</item>
+        <item>232|Thunderstorm with heavy drizzle</item>
+        <item>300|Light intensity drizzle</item>
+        <item>301|Drizzle</item>
+        <item>302|Heavy intensity drizzle</item>
+        <item>310|Light intensity drizzle rain</item>
+        <item>311|Drizzle rain</item>
+        <item>312|Heavy intensity drizzle rain</item>
+        <item>313|Shower rain and drizzle</item>
+        <item>314|Heavy shower rain and drizzle </item>
+        <item>321|Shower drizzle</item>
+        <item>500|Light rain</item>
+        <item>501|Rain</item>
+        <item>502|Heavy intensity rain</item>
+        <item>503|Very heavy rain</item>
+        <item>504|Extreme rain</item>
+        <item>511|Freezing rain</item>
+        <item>520|Light intensity shower rain</item>
+        <item>521|Shower rain</item>
+        <item>522|Heavy intensity shower rain</item>
+        <item>531|Ragged shower rain</item>
+        <item>600|Light snow</item>
+        <item>601|Snow</item>
+        <item>602|Heavy snow</item>
+        <item>611|Sleet</item>
+        <item>612|Shower sleet</item>
+        <item>615|Light rain and snow</item>
+        <item>616|Rain and snow</item>
+        <item>620|Light shower snow</item>
+        <item>621|Shower snow</item>
+        <item>622|Heavy shower snow</item>
+        <item>701|Mist</item>
+        <item>711|Smoke</item>
+        <item>721|Haze</item>
+        <item>731|Sand, dust whirls</item>
+        <item>741|Fog</item>
+        <item>751|Sand</item>
+        <item>761|Dust</item>
+        <item>762|Volcanic ash</item>
+        <item>771|Squalls</item>
+        <item>781|Tornado</item>
+        <item>800|Clear sky</item>
+        <item>801|Few clouds</item>
+        <item>802|Scattered clouds</item>
+        <item>803|Broken clouds</item>
+        <item>804|Overcast clouds</item>
+        <item>900|Tornado</item>
+        <item>901|Tropical storm</item>
+        <item>902|Hurricane</item>
+        <item>903|Cold</item>
+        <item>904|Hot</item>
+        <item>905|Windy</item>
+        <item>906|Hail</item>
+        <item>951|Calm</item>
+        <item>952|Light breeze</item>
+        <item>953|Gentle breeze</item>
+        <item>954|Moderate breeze</item>
+        <item>955|Fresh breeze</item>
+        <item>956|Strong breeze</item>
+        <item>957|High wind, near gale</item>
+        <item>958|Gale</item>
+        <item>959|Severe gale</item>
+        <item>960|Storm</item>
+        <item>961|Violent storm</item>
+        <item>962|Hurricane</item>
+    </string-array>
+</resources>

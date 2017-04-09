@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_location_item_edit" android:title="@string/rename"></item>
+    <item android:id="@+id/menu_location_item_set_default" android:title="@string/set_as_default"></item>
+    <item android:id="@+id/menu_location_item_delete" android:title="@string/remove"></item>
+</menu>

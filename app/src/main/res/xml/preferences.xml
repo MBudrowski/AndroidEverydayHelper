@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference
+            android:title="Wybierz skalę temperatury"
+            android:summary="Wybierz skalę w jakiej będzie wyświetlana temperatura."
+            android:key="temperatureScale"
+            android:defaultValue="CELCIUS"
+            android:entries="@array/tempScale"
+            android:entryValues="@array/tempScaleValue"
+            android:layout="@layout/preference_layout"/>
+
+        <ListPreference
+                android:title="Aktualizacja pogody"
+                android:summary="Co jaki czas mają następować aktualizacje pogody."
+                android:key="weatherUpdateRate"
+                android:defaultValue="0"
+                android:entries="@array/updateRate"
+                android:entryValues="@array/updateRateValue"
+                android:layout="@layout/preference_layout"/>
+
+        <pl.mbud.everydayhelper.util.TimePreference
+                android:title="Godzina aktualizacji"
+                android:summary="Bazowa godzina, od której zostaną ustalone konkretne godziny aktualizacji."
+                android:key="weatherUpdateTime"
+                android:layout="@layout/preference_layout"/>
+
+</PreferenceScreen>

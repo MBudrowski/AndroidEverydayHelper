@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/location_list_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazwa lokacji"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/location_list_item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opis lokacji"/>
+
+</LinearLayout>

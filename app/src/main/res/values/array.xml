@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tempScale">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="tempScaleValue">
+        <item>CELCIUS</item>
+        <item>FAHRENHEIT</item>
+        <item>KELVIN</item>
+    </string-array>
+
+    <string-array name="updateRateValue">
+        <item>0</item>
+        <item>5</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>1440</item>
+    </string-array>
+
+    <integer-array name="notifyTimeValue">
+        <item>0</item>
+        <item>10</item>
+        <item>60</item>
+        <item>120</item>
+        <item>720</item>
+        <item>1440</item>
+    </integer-array>
+</resources>

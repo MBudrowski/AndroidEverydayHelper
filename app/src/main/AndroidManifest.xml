@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.mbud.everydayhelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/notification_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WeatherActivity"
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LocationListActivity"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".WeatherForecastActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AddLocationActivity"
+            android:configChanges="orientation|screenSize"
+            android:noHistory="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:noHistory="true" />
+        <activity
+            android:name=".AddAlarmActivity"
+            android:configChanges="orientation|screenSize"
+            android:noHistory="true" />
+        <activity android:name=".AlarmsActivity" />
+        <activity
+            android:name=".AlarmActivity"
+            android:noHistory="true"
+            android:screenOrientation="locked" />
+        <activity android:name=".CalendarActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".EventListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AddEventActivity"
+            android:configChanges="orientation|screenSize"
+            android:noHistory="true" />
+        <activity android:name=".EventInfoActivity"
+            android:configChanges="orientation|screenSize"></activity>
+
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".NotificationPublisher"
+            android:enabled="true" />
+
+        <service android:name=".WeatherService" />
+
+    </application>
+
+</manifest>

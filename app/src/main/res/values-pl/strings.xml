@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Pomocnik Codzienny</string>
+    <string name="lang">pl</string>
+
+    <string name="none">Brak</string>
+
+    <string-array name="updateRate">
+        <item>Nigdy</item>
+        <item>Co 5 minut</item>
+        <item>Co 30 minut</item>
+        <item>Co 1 godzinę</item>
+        <item>Co 3 godzin</item>
+        <item>Co 24 godziny</item>
+    </string-array>
+
+    <string-array name="notifyTime">
+        <item>Bez powiadomienia</item>
+        <item>10 minut przed wydarzeniem</item>
+        <item>1 godzinę przed wydarzeniem</item>
+        <item>2 godziny przed wydarzeniem</item>
+        <item>12 godzin przed wydarzeniem</item>
+        <item>24 godziny przed wydarzeniem</item>
+    </string-array>
+
+    <string-array name="weekDays">
+        <item>Niedziela</item>
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+    </string-array>
+
+    <integer-array name="weekDaysValues">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+    </integer-array>
+
+    <string name="shut_off_button">Naciśnięcie przycisku</string>
+    <string name="shut_off_math">Proste działanie matematyczne</string>
+    <string name="shut_off_shake">Potrząśnięcie telefonem</string>
+
+    <string name="N">płn.</string>
+    <string name="E">wsch.</string>
+    <string name="W">zach.</string>
+    <string name="S">płd.</string>
+    <string name="NE">płn.-wsch.</string>
+    <string name="NW">płn.-zach.</string>
+    <string name="SE">płd.-wsch.</string>
+    <string name="SW">płd.-zach.</string>
+    <string name="alarm_name">Nazwa alarmu</string>
+    <string name="enter_alarm_name">Tu wpisz nazwę alarmu</string>
+    <string name="time">Czas</string>
+    <string name="choose_alarm_time">Wybierz godzinę o jakiej alarm zostanie uruchomiony</string>
+    <string name="select">Wybierz</string>
+    <string name="ringtone">Dzwonek</string>
+    <string name="choose_ringtone">Wybierz dzwonek jaki zostanie uruchomiony wraz z alarmem</string>
+    <string name="ringtone_volume">Głośność dzwonka</string>
+    <string name="repeat">Powtarzanie</string>
+    <string name="no_repeat">Bez powtarzania</string>
+    <string name="shut_off_method">Metoda wyłączenia</string>
+    <string name="accept">Zatwierdź</string>
+    <string name="event_name">Nazwa wydarzenia</string>
+    <string name="enter_event_name">Tu wpisz nazwę wydarzenia</string>
+    <string name="event_description">Opis</string>
+    <string name="enter_event_description">Tu wpisz opis wydarzenia</string>
+    <string name="date">Data</string>
+    <string name="choose_event_date">Wybierz datę wydarzenia</string>
+    <string name="choose_event_time">Wybierz godzinę wydarzenia</string>
+    <string name="notification">Powiadomienie</string>
+    <string name="no_notification">Brak powiadomienia</string>
+    <string name="add_location">Dodaj lokację</string>
+    <string name="alarm">ALARM</string>
+    <string name="dummy_alarm_message">ALAAAAAAAAAAAAAAAAAAAAARM</string>
+    <string name="add_alarm">Dodaj alarm</string>
+    <string name="add_event">Dodaj wydarzenie</string>
+    <string name="event_list">Lista wydarzeń</string>
+    <string name="event_name_info">Nazwa wydarzenia:</string>
+    <string name="dummy_event_name">Jakieś wydarzenie</string>
+    <string name="event_description_info">Opis:</string>
+    <string name="dummy_event_desc">jaskdksdajkd asjk asdjkjkdjkasd jkkj asjkd asjkjkd asjkjkjaskd jkjskd ajkjkasdjkjkjkasdjkjaskdj jk asdjjkdasjkasdjk</string>
+    <string name="date_info">Data:</string>
+    <string name="dummy_date">11.11.1111 11:11</string>
+    <string name="edit">Edytuj</string>
+    <string name="remove">Usuń</string>
+    <string name="return_to_calendar">Wróć do kalendarza</string>
+    <string name="upcoming_events">Nadchodzące wydarzenia:</string>
+    <string name="no_events">Brak wydarzeń</string>
+    <string name="past_events">Przeszłe wydarzenia:</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="no_alarms">Brak alarmów</string>
+    <string name="alarm_list">Alarmy:</string>
+    <string name="location_list">Lista lokacji:</string>
+    <string name="no_locations">Brak lokacji</string>
+    <string name="turn_on">Włącz</string>
+    <string name="turn_off">Wyłącz</string>
+    <string name="rename">Zmień nazwę</string>
+    <string name="set_as_default">Ustaw jako domyślną</string>
+    <string name="weather">Pogoda</string>
+    <string name="alarms">Alarmy</string>
+    <string name="settings">Ustawienia</string>
+    <string name="shake_the_phone_to_disable_alarm">Potrząśnij telefonem, aby wyłączyć alarm!</string>
+    <string name="result">Wynik</string>
+    <string name="location_name">Nazwa lokacji</string>
+    <string name="enter_location_name">Tu wpisz nazwę lokalizacji</string>
+    <string name="use_actual_location">Użyj aktualnej lokazji</string>
+    <string name="check_to_use_actual_location">Zaznacz jeśli chcesz użyć twojej lokalizacji</string>
+    <string name="on">Włączony</string>
+    <string name="off">Wyłączony</string>
+    <string name="refresh_data">Odśwież dane</string>
+    <string name="forecast">Progroza pogody</string>
+    <string name="other_locations">Inne lokalizacje</string>
+    <string name="date_measurement">Data pomiaru:</string>
+    <string name="pressure">Ciśnienie:</string>
+    <string name="humidity">Wilgotność:</string>
+    <string name="wind">Wiatr:</string>
+    <string name="clouds">Zachmurzenie:</string>
+    <string name="rain">Deszcz:</string>
+    <string name="snow">Śnieg:</string>
+    <string name="sunrise">Wschód słońca:</string>
+    <string name="sunset">Zachód słońca:</string>
+
+    <string-array name="weatherCodes">
+        <item>200|Burza z niewielkim deszczem</item>
+        <item>201|Burza z deszczem</item>
+        <item>202|Burza z cięzkim deszczem</item>
+        <item>210|Niewielka burza</item>
+        <item>211|Burza</item>
+        <item>212|Poważna burza</item>
+        <item>221|Okresowa burza</item>
+        <item>230|Burza z mżawką</item>
+        <item>231|Burza z mżawką</item>
+        <item>232|Burza z mżawką</item>
+        <item>300|Mała mżawka</item>
+        <item>301|Mżawka</item>
+        <item>302|Intensywna mżawka</item>
+        <item>310|Niewielki deszczyk</item>
+        <item>311|Deszczyk</item>
+        <item>312|Intensywny deszczyk</item>
+        <item>313|Mała ulewa</item>
+        <item>314|Ulewa</item>
+        <item>321|Intensywna mżawka</item>
+        <item>500|Nieduży deszcz</item>
+        <item>501|Deszcz</item>
+        <item>502|Intensywny deszcz</item>
+        <item>503|Ciężki deszcz</item>
+        <item>504|Ulewa</item>
+        <item>511|Mroźny deszcz</item>
+        <item>520|Niewielka ulewa</item>
+        <item>521|Ulewa</item>
+        <item>522|Intensywna ulewa</item>
+        <item>531|Okresowa ulewa</item>
+        <item>600|Niewielkie opady śniegu</item>
+        <item>601|Opady śniegu</item>
+        <item>602|Ciężkie opady śniegu</item>
+        <item>611|Śnieg z deszczem</item>
+        <item>612|Śnieg z ulewnym deszczem</item>
+        <item>615|Niewielki opady deszczu ze śniegiem</item>
+        <item>616|Opady deszczu ze śniegiem</item>
+        <item>620|Opady śniegu</item>
+        <item>621|Duże opady śniegu</item>
+        <item>622|Intentywne opady śniegu</item>
+        <item>701|Mgiełka</item>
+        <item>711|Dym</item>
+        <item>721|Mgła</item>
+        <item>731|Burza piaskowa</item>
+        <item>741|Mgła</item>
+        <item>751|Burza piaskowa</item>
+        <item>761|Burza pyłowa</item>
+        <item>762|Pyły wulkaniczne</item>
+        <item>771|Szkwał</item>
+        <item>781|Tornado</item>
+        <item>800|Czyste niebo</item>
+        <item>801|Parę chmur</item>
+        <item>802|Rozproszone chmury</item>
+        <item>803|Porozrywane chmury</item>
+        <item>804|Pochmurno</item>
+        <item>900|Tornado</item>
+        <item>901|Burza tropikalna</item>
+        <item>902|Huragan</item>
+        <item>903|Mróz</item>
+        <item>904|Upał</item>
+        <item>905|Wietrznie</item>
+        <item>906|Grad</item>
+        <item>951|Spokojnie</item>
+        <item>952|Niewielki powiew</item>
+        <item>953|Wiatr</item>
+        <item>954|Średni powiew</item>
+        <item>955|Świeży powiew</item>
+        <item>956|Silny powiew</item>
+        <item>957|Bardzo silny wiatr</item>
+        <item>958|Wichura</item>
+        <item>959|Duża wichura</item>
+        <item>960|Sztorm</item>
+        <item>961|Duży sztorm</item>
+        <item>962|Huragan</item>
+    </string-array>
+    <string name="adding_location">Dodawanie lokalizacji</string>
+    <string name="are_you_sure_delete_alarm">Czy na pewno chcesz usunąć ten alarm?</string>
+    <string name="are_you_sure_delete_event">Czy na pewno chcesz usunąć to wydarzenie?</string>
+    <string name="are_you_sure_delete_location">Czy na pewno chcesz usunąć tą lokalizację?</string>
+    <string name="cancel">Anuluj</string>
+    <string name="celcius">°C</string>
+    <string name="choose_days_short">Wybierz dni:</string>
+    <string name="choose_ringtone_short">Wybierz dzwonek:</string>
+    <string name="choose_shut_off_method_short">Wybierz metodę wyłączenia:</string>
+    <string name="choose_when_the_notification">Wybierz kiedy będzie wyświetlone powiadomienie:</string>
+    <string name="confirm_deletion">Potwierdzenie usunięcia</string>
+    <string name="couldnt_find_the_location">Nie znaleziono lokacji!</string>
+    <string name="default_location">domyślna lokalizacja</string>
+    <string name="didnt_choose_date">Nie wybrano daty!</string>
+    <string name="didnt_choose_time">Nie wybrano godziny!</string>
+    <string name="download_error">Nastąpił błąd w pobieraniu danych z serwera. Sprawdź połączenie internetowe i spróbuj ponownie później.</string>
+    <string name="download_error_location_name">Nastąpił błąd w pobieraniu danych z serwera. Sprawdź połączenie internetowe i wprowadź prawidłową nazwę lokacji.</string>
+    <string name="enter_new_name_location">Podaj nową nazwę lokalizacji:</string>
+    <string name="error">Błąd!</string>
+    <string name="event_list_info">Wydarzenia:</string>
+    <string name="fahrenheit">°F</string>
+    <string name="field_required">Pole wymagane!</string>
+    <string name="kelvin">" K"</string>
+    <string name="no">Nie</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Proszę czekać...</string>
+    <string name="upcoming_event">Nadchodzące wydarzenie!</string>
+    <string name="updating_data">Aktualizacja danych</string>
+    <string name="yes">Tak</string>
+</resources>
